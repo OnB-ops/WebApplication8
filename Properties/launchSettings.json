@@ -12,17 +12,16 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
+      "launchUrl": "api/Version",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "ancmHostingModel": "OutOfProcess",
-      "applicationUrl": "http://localhost:5000"
+      }
+      
     },
     "WebApplication8": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
+      "launchUrl": "api/Version",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

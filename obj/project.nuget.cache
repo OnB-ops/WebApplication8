@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6omAaHo/XnKlRHWsABuNWf6qI/qFShPfh2yRglXyRZj9JtqbuwU4ygfvD+nwhdDKYdgIYPbsmXGk5FhqvV903g==",
+  "dgSpecHash": "zFwTrY02U9DuJP34f5iPqkh+9Ue8sis14MXsF/TZrDPr1+xwdGTRT8m5tGHGAii3f5ES5XRf/4QVGJ07+C5DoQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lorz\\Desktop\\WebApplication8\\WebApplication8.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Lorz\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Lorz\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],
   "logs": []
