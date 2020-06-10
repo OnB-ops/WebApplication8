@@ -12,13 +12,13 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "0.0.2-rc.1",
+    "version": "0.0.3-rc.1",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lorz\\source\\repos\\WebApplication8\\WebApplication8\\WebApplication8.csproj",
+      "projectUniqueName": "C:\\Users\\Lorz\\Desktop\\WebApplication8\\WebApplication8.csproj",
       "projectName": "MyApp",
-      "projectPath": "C:\\Users\\Lorz\\source\\repos\\WebApplication8\\WebApplication8\\WebApplication8.csproj",
+      "projectPath": "C:\\Users\\Lorz\\Desktop\\WebApplication8\\WebApplication8.csproj",
       "packagesPath": "C:\\Users\\Lorz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lorz\\source\\repos\\WebApplication8\\WebApplication8\\obj\\",
+      "outputPath": "C:\\Users\\Lorz\\Desktop\\WebApplication8\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

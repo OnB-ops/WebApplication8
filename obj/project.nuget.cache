@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L90EBAN6auIhACbIRFCw6tYikfhp8Xfqj7iHEDv/6iEjQyuZavYMLjokX0qkGYXhMVEyBdY5bvJ6LTtSGT2xvQ==",
+  "dgSpecHash": "6omAaHo/XnKlRHWsABuNWf6qI/qFShPfh2yRglXyRZj9JtqbuwU4ygfvD+nwhdDKYdgIYPbsmXGk5FhqvV903g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lorz\\source\\repos\\WebApplication8\\WebApplication8\\WebApplication8.csproj",
+  "projectFilePath": "C:\\Users\\Lorz\\Desktop\\WebApplication8\\WebApplication8.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lorz\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],
