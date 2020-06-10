@@ -7,10 +7,11 @@ namespace WebApplication8.Models
 {
     public class Lab1Data
     {
-        public string Model { get; set; }
-        public string Brand { get; set; }
-        public byte ModelId { get; set; }
-        public string Type { get; set; }
+        public Guid Id { get; set; } = Guid.Empty;
+        public string Model { get; set; } // модель консоли
+        public string Brand { get; set; } // компания производитель
+        public byte ModelId { get; set; } // серийный номер
+        public string Type { get; set; } // тип консоли
 
         public BaseModelValidationResult Validate()
 
