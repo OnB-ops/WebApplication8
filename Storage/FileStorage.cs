@@ -1,12 +1,13 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
-using System.Timers;
 using WebApplication8.Controllers;
 using WebApplication8.Models;
-using static System.Net.WebRequestMethods;
+
 
 namespace WebApplication8.Storage
 {
@@ -29,7 +30,7 @@ namespace WebApplication8.Storage
                 var allLines = File.ReadAllText(FileName);
                try
                 {
-                    var deserialized = JsonConvert.DeserializeObject<List<LabData>>(allLines);
+                    var deserialized = JsonConvert.DeserializeObject<List<Lab1Data>>(allLines);
                     if (deserialized != null)
                     {
                         foreach (var labData in deserialized)
@@ -50,14 +51,5 @@ namespace WebApplication8.Storage
             File.WriteAllText(FileName, serializedContents);
         }
     }
-    private Controllers.IStorage<Models.Lab1Data> _memCache;
-
-
-    public Lab1Controller(Controllers.IStorage<Models.Lab1Data> memCache)
-
-    {
-
-        _memCache = memCache;
-
-    }
+    
 }
