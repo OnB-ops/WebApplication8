@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Reflection;
 
+
 namespace WebApplication8.Controllers
 {
     [Route("api/[controller]")]
@@ -16,7 +17,14 @@ namespace WebApplication8.Controllers
         [HttpGet]
         public ActionResult<string> Get()
         {
-            return Ok(Assembly.GetEntryAssembly().GetCustomAttribute<AssemblyInformationalVersionAttribute>().InformationalVersion);
+            var versionInfo = new Models.Version
+
+            {  Company = Assembly.GetEntryAssembly().GetCustomAttribute<AssemblyCompanyAttribute>().Company,
+               Product = Assembly.GetEntryAssembly().GetCustomAttribute<AssemblyProductAttribute>().Product,
+               ProductVersion = Assembly.GetEntryAssembly().GetCustomAttribute<AssemblyInformationalVersionAttribute>().InformationalVersion
+
+            };
+            return Ok(versionInfo);
         }
     }
 }
